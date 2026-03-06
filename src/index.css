@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --color-wh-gold: #d4a843;
+  --color-wh-gold-dim: #8a6d2b;
+  --color-wh-dark: #0a0a0f;
+  --color-wh-panel: #12121a;
+  --color-wh-border: #2a2a3a;
+  --color-wh-red: #8b1a1a;
+  --color-wh-red-bright: #c0392b;
+
+  --color-faction-ultramarines: #2952a3;
+  --color-faction-orks: #3d8b37;
+  --color-faction-eldar: #7d3c98;
+  --color-faction-chaos: #922b21;
+
+  --font-gothic: 'Cinzel', serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background-color: var(--color-wh-dark);
+  min-height: 100vh;
+}
+
+.font-gothic {
+  font-family: var(--font-gothic);
+}
+
+.wh-border {
+  border: 1px solid var(--color-wh-border);
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.wh-panel {
+  background-color: var(--color-wh-panel);
+  border: 1px solid var(--color-wh-border);
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5), 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.wh-glow {
+  text-shadow: 0 0 10px rgba(212, 168, 67, 0.5);
+}
+
+.wh-button {
+  background: linear-gradient(180deg, #d4a843 0%, #8a6d2b 100%);
+  color: #0a0a0f;
+  font-family: var(--font-gothic);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #d4a843;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.wh-button:hover {
+  background: linear-gradient(180deg, #e8bc5a 0%, #a07d33 100%);
+  box-shadow: 0 0 15px rgba(212, 168, 67, 0.4);
+}
+
+.wh-button-danger {
+  background: linear-gradient(180deg, #c0392b 0%, #7b241c 100%);
+  color: #fff;
+  border-color: #c0392b;
+}
+
+.wh-button-danger:hover {
+  background: linear-gradient(180deg, #e74c3c 0%, #922b21 100%);
+  box-shadow: 0 0 15px rgba(192, 57, 43, 0.4);
+}
