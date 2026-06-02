@@ -1,4 +1,4 @@
-import type { CombatCardIcons } from '../../data/types';
+import type { CombatCardIcons } from '../../data/types.ts';
 
 /** Min/max change in icons from the card player's perspective. */
 export type EffectImpact = {

@@ -135,11 +135,12 @@ export const useCombatStore = create<StoreState>((set, get) => ({
 
   dismissPending: () => set({ pendingEffects: null }),
 
-  resolveBranchChoice: (_optionIndex) => {
+  resolveBranchChoice: (optionIndex) => {
     const pending = get().pendingEffects;
     if (!pending) return;
     const input = pending.inputs[0];
     if (input?.type !== 'chooseBranch') return;
+    void optionIndex;
     // Branch resolution just clears the pending — actual effects
     // require re-running execute with the chosen branch, which the
     // UI should handle by calling specific store actions manually.

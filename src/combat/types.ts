@@ -1,6 +1,6 @@
-import type { FactionId } from '../data/types';
+import type { FactionId } from '../data/types.ts';
 
-export type { FactionId } from '../data/types';
+export type { FactionId } from '../data/types.ts';
 
 export type Side = 'attacker' | 'defender';
 

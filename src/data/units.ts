@@ -1,4 +1,4 @@
-import type { Bastion, Unit } from './types';
+import type { Bastion, Unit } from './types.ts';
 
 // --- Ultramarines ---
 

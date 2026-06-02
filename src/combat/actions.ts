@@ -1,5 +1,5 @@
-import type { FactionId } from '../data/types';
-import type { CombatState, CombatSideState, Side, DieIcon } from './types';
+import type { FactionId } from '../data/types.ts';
+import type { CombatState, CombatSideState, Side, DieIcon } from './types.ts';
 
 const freshSide = (): CombatSideState => ({
   factionId: null,

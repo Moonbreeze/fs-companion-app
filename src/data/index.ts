@@ -1,5 +1,5 @@
-export { factions, factionList, getFaction } from './factions';
-export { allUnits, unitsByFaction, unitsById, getUnitsForFaction, getUnit, bastions } from './units';
+export { factions, factionList, getFaction } from './factions.ts';
+export { allUnits, unitsByFaction, unitsById, getUnitsForFaction, getUnit, bastions } from './units.ts';
 export {
   allCombatCards,
   combatCardsByFaction,
@@ -10,13 +10,13 @@ export {
   getCombatCard,
   getBaseCombatCards,
   getUpgradeCombatCards,
-} from './combatCards';
+} from './combatCards.ts';
 export {
   allOrderUpgrades,
   orderUpgradesByFaction,
   getOrderUpgradesForFaction,
   getOrderUpgrade,
-} from './upgrades';
+} from './upgrades.ts';
 export type {
   FactionId,
   BaseFactionId,
@@ -37,4 +37,4 @@ export type {
   CombatUnit,
   PlayedCard,
   CombatSideState,
-} from './types';
+} from './types.ts';

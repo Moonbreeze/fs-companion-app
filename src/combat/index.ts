@@ -8,15 +8,15 @@ export type {
   CombatState,
   CombatTotals,
   CombatResult,
-} from './types';
+} from './types.ts';
 
-export { calculateDiceCount, calculateTotals, determineWinner, rollDice } from './calculations';
+export { calculateDiceCount, calculateTotals, determineWinner, rollDice } from './calculations.ts';
 
-export type { CombatEffect, EffectCondition, UnitFilter, PendingInput, EffectExecutionResult } from './effects';
-export { executeEffects } from './effects';
+export type { CombatEffect, EffectCondition, UnitFilter, PendingInput, EffectExecutionResult } from './effects/index.ts';
+export { executeEffects } from './effects/index.ts';
 
-export type { EffectImpact, CardAnalysis } from './analysis';
-export { analyzeAvailableCards, meetsRequisite } from './analysis';
+export type { EffectImpact, CardAnalysis } from './analysis/index.ts';
+export { analyzeAvailableCards, meetsRequisite } from './analysis/index.ts';
 
 export {
   endCombat,
@@ -40,4 +40,4 @@ export {
   playCard,
   discardPlayedCard,
   nextExecutionRound,
-} from './actions';
+} from './actions.ts';

@@ -1,4 +1,4 @@
-import type { Faction } from './types';
+import type { Faction } from './types.ts';
 
 export const factions: Record<string, Faction> = {
   ultramarines: {

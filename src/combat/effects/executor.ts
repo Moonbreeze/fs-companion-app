@@ -1,8 +1,8 @@
-import { unitsById } from '../../data';
-import type { CombatState, CombatSideState, Side } from '../types';
-import * as actions from '../actions';
-import { rollDice } from '../calculations';
-import type { CombatEffect, EffectCondition, UnitFilter, PendingInput } from './types';
+import { unitsById } from '../../data/index.ts';
+import type { CombatState, CombatSideState, Side } from '../types.ts';
+import * as actions from '../actions.ts';
+import { rollDice } from '../calculations.ts';
+import type { CombatEffect, EffectCondition, UnitFilter, PendingInput } from './types.ts';
 
 export type EffectExecutionResult = {
   state: CombatState;

@@ -1,3 +1,3 @@
-export type { CombatEffect, EffectCondition, UnitFilter, PendingInput } from './types';
-export type { EffectExecutionResult } from './executor';
-export { executeEffects } from './executor';
+export type { CombatEffect, EffectCondition, UnitFilter, PendingInput } from './types.ts';
+export type { EffectExecutionResult } from './executor.ts';
+export { executeEffects } from './executor.ts';

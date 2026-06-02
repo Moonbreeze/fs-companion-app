@@ -1,3 +1,3 @@
-export type { EffectImpact, CardAnalysis } from './types';
-export { analyzeAvailableCards } from './analyzer';
-export { meetsRequisite } from './requisiteCheck';
+export type { EffectImpact, CardAnalysis } from './types.ts';
+export { analyzeAvailableCards } from './analyzer.ts';
+export { meetsRequisite } from './requisiteCheck.ts';

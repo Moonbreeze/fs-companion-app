@@ -1,4 +1,4 @@
-import type { DieIcon, Side } from '../types';
+import type { DieIcon, Side } from '../types.ts';
 
 // --- Unit filter ---
 

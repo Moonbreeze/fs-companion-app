@@ -1,5 +1,5 @@
-import type { CombatCard } from './types';
-import { combatCardEffectsData } from './combatCardEffectsData';
+import type { CombatCard } from './types.ts';
+import { combatCardEffectsData } from './combatCardEffectsData.ts';
 
 // --- Ultramarines Combat Cards ---
 

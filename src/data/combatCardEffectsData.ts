@@ -1,4 +1,4 @@
-import type { CombatEffect } from '../combat/effects/types';
+import type { CombatEffect } from '../combat/effects/types.ts';
 
 type CardEffects = {
   primary?: CombatEffect[];

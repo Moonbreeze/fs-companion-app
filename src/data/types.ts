@@ -64,8 +64,8 @@ export interface CombatCard {
    * display text only. Cards with this field can be analyzed by the app.
    */
   effects?: {
-    primary?: import('../combat/effects/types').CombatEffect[];
-    secondary?: import('../combat/effects/types').CombatEffect[];
+    primary?: import('../combat/effects/types.ts').CombatEffect[];
+    secondary?: import('../combat/effects/types.ts').CombatEffect[];
   };
 }
 
@@ -136,4 +136,4 @@ export interface TimerConfig {
 
 // --- Combat State (re-exported from src/combat/types for backward compatibility) ---
 
-export type { DieIcon, CombatUnit, PlayedCard, CombatSideState, CombatState } from '../combat/types';
+export type { DieIcon, CombatUnit, PlayedCard, CombatSideState, CombatState } from '../combat/types.ts';

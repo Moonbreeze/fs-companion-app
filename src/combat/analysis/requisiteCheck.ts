@@ -1,5 +1,5 @@
-import { unitsById } from '../../data';
-import type { CombatUnit } from '../types';
+import { unitsById } from '../../data/index.ts';
+import type { CombatUnit } from '../types.ts';
 
 /**
  * Check if at least one unrouted unit (or bastion) satisfies the card's

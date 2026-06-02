@@ -1,9 +1,9 @@
-import { combatCardsById, getCombatCardsForFaction, unitsById } from '../../data';
-import type { CombatCard } from '../../data/types';
-import type { CombatState, Side } from '../types';
-import type { CombatEffect, EffectCondition, UnitFilter } from '../effects/types';
-import type { EffectImpact, CardAnalysis } from './types';
-import { meetsRequisite } from './requisiteCheck';
+import { combatCardsById, getCombatCardsForFaction, unitsById } from '../../data/index.ts';
+import type { CombatCard } from '../../data/types.ts';
+import type { CombatState, Side } from '../types.ts';
+import type { CombatEffect, EffectCondition, UnitFilter } from '../effects/types.ts';
+import type { EffectImpact, CardAnalysis } from './types.ts';
+import { meetsRequisite } from './requisiteCheck.ts';
 
 // --- Helpers ---
 

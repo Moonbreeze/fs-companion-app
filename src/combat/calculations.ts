@@ -1,6 +1,6 @@
-import { unitsById, bastions, combatCardsById } from '../data';
-import type { FactionId } from '../data/types';
-import type { CombatUnit, CombatSideState, DieIcon, CombatTotals, CombatResult } from './types';
+import { unitsById, bastions, combatCardsById } from '../data/index.ts';
+import type { FactionId } from '../data/types.ts';
+import type { CombatUnit, CombatSideState, DieIcon, CombatTotals, CombatResult } from './types.ts';
 
 /**
  * Calculate number of dice for a side.

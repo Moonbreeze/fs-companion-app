@@ -1,4 +1,4 @@
-import type { OrderUpgrade } from './types';
+import type { OrderUpgrade } from './types.ts';
 
 // --- Ultramarines Order Upgrades ---
 
