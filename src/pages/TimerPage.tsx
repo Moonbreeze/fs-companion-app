@@ -72,7 +72,7 @@ function TimerSettings() {
 
 function TimerDisplay() {
   const {
-    config, mode, currentPlayerIndex, turnTimeLeft,
+    mode, currentPlayerIndex, turnTimeLeft,
     reserveTimeLeft, isRunning, playerCount,
     startTimer, pauseTimer, nextPlayer, tick, resetTimer, setMode,
   } = useTimerStore();

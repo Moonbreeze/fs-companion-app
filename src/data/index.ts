@@ -1,5 +1,40 @@
 export { factions, factionList, getFaction } from './factions';
-export { allUnits as units, unitsByFaction, unitsById, getUnitsForFaction, getUnit } from './units';
-export { allCombatCards as combatCards, combatCardsByFaction, combatCardsById, getCombatCardsForFaction, getCombatCard } from './combatCards';
-export { allUpgrades as upgrades, upgradesByFaction, upgradesById, getUpgradesForFaction, getUpgrade } from './upgrades';
-export type { FactionId, BaseFactionId, Faction, Unit, CombatCard, UpgradeCard, TimerConfig } from './types';
+export { allUnits, unitsByFaction, unitsById, getUnitsForFaction, getUnit, bastions } from './units';
+export {
+  allCombatCards,
+  combatCardsByFaction,
+  combatCardsById,
+  baseCombatCards,
+  combatUpgradeCards,
+  getCombatCardsForFaction,
+  getCombatCard,
+  getBaseCombatCards,
+  getUpgradeCombatCards,
+} from './combatCards';
+export {
+  allOrderUpgrades,
+  orderUpgradesByFaction,
+  getOrderUpgradesForFaction,
+  getOrderUpgrade,
+} from './upgrades';
+export type {
+  FactionId,
+  BaseFactionId,
+  Faction,
+  Unit,
+  Bastion,
+  Structure,
+  CombatCard,
+  CombatCardIcons,
+  OrderUpgrade,
+  EventCard,
+  AssetType,
+  PlayerAssets,
+  TerritoryInfo,
+  PlayerState,
+  TimerConfig,
+  DieIcon,
+  CombatUnit,
+  PlayedCard,
+  CombatSideState,
+} from './types';

@@ -1,4 +1,5 @@
 # Project-specific instructions
 
-<!-- Add project-specific instructions here. These will be appended after all modules. -->
+## Memory
 
+При начале работы с проектом обязательно изучи файл памяти `~/.claude/projects/-home-moonbreeze-forbidden-stars-companion/memory/MEMORY.md` и связанные файлы. При завершении задачи, если были внесены значимые архитектурные изменения, обнови соответствующие файлы памяти.
